@@ -11,7 +11,6 @@
   
   header {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
     padding: 15px;
     background-color: white;
@@ -26,7 +25,6 @@
   header img {
     width: 25px;
     margin-left: 15px;
-    /* cursor: pointer; */
   }
   
   .notice {
@@ -43,8 +41,6 @@
   }
   
   .product-item {
-    /* display: flex; */
-    /* align-items: center; */
     background-color: white;
     padding: 10px;
     margin-bottom: 10px;
@@ -58,11 +54,6 @@
     border-radius: 8px;
     object-fit: cover;
     margin-right: 10px;
-  
-    /* @media screen and (max-width: 768px) {
-      width: 80px;
-      height: 80px;
-    } */
   }
   
   .product-title {
@@ -83,13 +74,10 @@
   }
   
   footer {
-    /* position: fixed; */
-    /* bottom: 0;
-    left: 0; */
+   
     width: 100%;
     background-color: white;
     display: flex;
-    /* justify-content: space-around; */
     padding: 10px 0;
     border-top: 1px solid #ddd;
   }
